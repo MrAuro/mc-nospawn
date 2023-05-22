@@ -1,0 +1,10 @@
+name: Nospawn
+version: '1.0-SNAPSHOT'
+main: dev.mrauro.nospawn.Nospawn
+api-version: 1.19
+authors: [ Auro ]
+commands:
+  toggle:
+    description: Toggles the nospawn mode
+    usage: /toggle
+    permission: nospawn.toggle
